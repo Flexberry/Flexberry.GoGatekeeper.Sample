@@ -1,0 +1,4 @@
+import IISFlexberryGoGatekeeperSampleProducingCountryEController from '../i-i-s-flexberry-go-gatekeeper-sample-producing-country-e';
+
+var IISFlexberryGoGatekeeperSampleProducingCountryENewController = IISFlexberryGoGatekeeperSampleProducingCountryEController;
+export default IISFlexberryGoGatekeeperSampleProducingCountryENewController;

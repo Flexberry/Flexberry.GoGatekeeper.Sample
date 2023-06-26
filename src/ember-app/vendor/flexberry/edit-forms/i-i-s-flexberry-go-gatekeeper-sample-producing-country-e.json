@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Producing country",
+  "name": "IISFlexberryGoGatekeeperSampleProducingCountryE",
+  "className": "ProducingCountryE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-flexberry-go-gatekeeper-sample-producing-country",
+      "modelProjection": "ProducingCountryE"
+    }
+  ]
+}

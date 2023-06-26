@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexberryGoGatekeeperSample.Objects", "Objects\FlexberryGoGatekeeperSample.Objects.csproj", "{FE07D3E9-7808-4840-A28B-F06456069FD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexberryGoGatekeeperSample.Tests", "Tests\FlexberryGoGatekeeperSample.Tests.csproj", "{8B6462C8-9752-43BE-A7A5-CF4C632BF9B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexberryGoGatekeeperSample.ODataBackend", "ODataBackend\FlexberryGoGatekeeperSample.ODataBackend.csproj", "{F076674B-00B9-4641-BDC3-56CB3967C771}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexberryGoGatekeeperSample.IntegrationTests", "IntegrationTests\FlexberryGoGatekeeperSample.IntegrationTests.csproj", "{48ED9C92-18D8-4B6E-86F2-AB9465C4E49D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE07D3E9-7808-4840-A28B-F06456069FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE07D3E9-7808-4840-A28B-F06456069FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE07D3E9-7808-4840-A28B-F06456069FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE07D3E9-7808-4840-A28B-F06456069FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6462C8-9752-43BE-A7A5-CF4C632BF9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6462C8-9752-43BE-A7A5-CF4C632BF9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6462C8-9752-43BE-A7A5-CF4C632BF9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6462C8-9752-43BE-A7A5-CF4C632BF9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F076674B-00B9-4641-BDC3-56CB3967C771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F076674B-00B9-4641-BDC3-56CB3967C771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F076674B-00B9-4641-BDC3-56CB3967C771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F076674B-00B9-4641-BDC3-56CB3967C771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48ED9C92-18D8-4B6E-86F2-AB9465C4E49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48ED9C92-18D8-4B6E-86F2-AB9465C4E49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48ED9C92-18D8-4B6E-86F2-AB9465C4E49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48ED9C92-18D8-4B6E-86F2-AB9465C4E49D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D70A41BB-6B28-4578-8D63-FC93DFAE8334}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,43 @@
+﻿{
+  "applicationCaption": "Async open xml reports sample",
+  "applicationTitle": "Async open xml reports sample",
+  "items": [
+    {
+      "link": null,
+      "menuName": "flexberry-go-gatekeeper-sample",
+      "caption": "FlexberryGoGatekeeperSample",
+      "title": "FlexberryGoGatekeeperSample",
+      "children": [
+        {
+          "link": "i-i-s-flexberry-go-gatekeeper-sample-brand-l",
+          "menuName": null,
+          "caption": "Brand",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-flexberry-go-gatekeeper-sample-car-l",
+          "menuName": null,
+          "caption": "Car",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-flexberry-go-gatekeeper-sample-producing-country-l",
+          "menuName": null,
+          "caption": "Producing country",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-flexberry-go-gatekeeper-sample-user-report-l",
+          "menuName": null,
+          "caption": "User report",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

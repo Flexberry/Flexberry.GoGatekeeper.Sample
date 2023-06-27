@@ -1,0 +1,1 @@
+docker-compose -p flexberrygogatekeepersample up -d

@@ -1,0 +1,4 @@
+import IISFlexberryGoGatekeeperSampleUserReportEController from '../i-i-s-flexberry-go-gatekeeper-sample-user-report-e';
+
+var IISFlexberryGoGatekeeperSampleUserReportENewController = IISFlexberryGoGatekeeperSampleUserReportEController;
+export default IISFlexberryGoGatekeeperSampleUserReportENewController;

@@ -8,6 +8,16 @@ import { inject as service } from '@ember/service';
 
 
 export default Controller.extend({
+  keycloakSession: service(),
+
+  userName: computed('keycloakSession.tokenParsed.preferred_username', function() {
+    try {
+      return this.keycloakSession.tokenParsed.preferred_username;
+    } catch (e) {
+      return null;
+    }
+  }),
+
   sitemap: computed('i18n.locale', function () {
     let i18n = this.get('i18n');
 
@@ -164,6 +174,10 @@ export default Controller.extend({
         $('.ui.sidebar.main.menu').sidebar('attach events', '.ui.sidebar.main.menu .item a', 'hide');
         this.set('_hideEventIsAttached', true);
       }
+    },
+
+    logout() {
+      this.keycloakSession.logout();
     }
   }
 });

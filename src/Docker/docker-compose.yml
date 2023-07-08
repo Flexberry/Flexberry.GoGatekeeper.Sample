@@ -5,12 +5,14 @@ services:
     image: flexberrygogatekeepersample/app
     links:
       - app-postgres-db:app-postgres-db
-    ports:
-      - 80:80
     environment:
       - UploadUrl=Uploads
       - BackendRoot=https://localhost
       - DefConnStr=SERVER=app-postgres-db;User ID=flexberryuser;Password=jhv;Port=5432;database=appdb;
+    depends_on:
+      - gatekeeper
+    networks:
+      - gatekeepersample
 
   app-postgres-db:
     image: flexberrygogatekeepersample/postgre-sql
@@ -18,6 +20,8 @@ services:
       - DB:/var/lib/pgsql/data/
     ports:
       - 5432:5432
+    networks:
+      - gatekeepersample
       
   keycloak:
     image: flexberrygogatekeepersample/keycloak
@@ -28,6 +32,20 @@ services:
       KEYCLOAK_ADMIN_PASSWORD: admin
     volumes:
       - KEYCLOAK:/opt/keycloak/data/
+    networks:
+      - gatekeepersample
+
+  gatekeeper:
+    image: flexberrygogatekeepersample/gatekeeper
+    depends_on:
+      - keycloak
+    networks:
+      - gatekeepersample
+    ports:
+      - 80:80
+
+networks:
+  gatekeepersample:
 
 volumes:
   DB:

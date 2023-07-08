@@ -4,7 +4,7 @@ import { computed, observer } from '@ember/object';
 import { isNone } from '@ember/utils';
 import { A } from '@ember/array';
 import { inject as service } from '@ember/service';
-
+import config from '../config/environment';
 
 
 export default Controller.extend({
@@ -177,7 +177,7 @@ export default Controller.extend({
     },
 
     logout() {
-      this.keycloakSession.logout();
+      this.keycloakSession.logout(config.APP.backendUrl);
     }
   }
 });

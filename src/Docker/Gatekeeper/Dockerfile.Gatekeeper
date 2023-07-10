@@ -1,0 +1,5 @@
+FROM quay.io/gogatekeeper/gatekeeper:2.5.0
+
+COPY /Gatekeeper/gatekeeper.conf /etc/gatekeeper.conf
+
+ENTRYPOINT [ "/opt/gatekeeper/gatekeeper", "--config=/etc/gatekeeper.conf" ]

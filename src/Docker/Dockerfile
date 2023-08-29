@@ -36,8 +36,4 @@ WORKDIR /app
 COPY --from=backend /FlexberryGoGatekeeperSample/out ./
 COPY --from=ember_app /ember-app/dist ./wwwroot/
 
-# Check webapi responses
-HEALTHCHECK --interval=60s --timeout=15s --start-period=20s \
-  CMD curl -f "http://0.0.0.0/health" || exit
-
 ENTRYPOINT ["dotnet", "FlexberryGoGatekeeperSample.ODataBackend.dll"]

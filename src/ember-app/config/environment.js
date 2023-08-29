@@ -14,7 +14,6 @@ module.exports = function(environment) {
   if (environment === 'docker') {
     // For docker backendUrl setting.
     backendUrl = 'http://localhost:80';
-    authorityUrl = 'http://keycloak:8080';
   }
 
   let ENV = {

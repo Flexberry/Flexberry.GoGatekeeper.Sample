@@ -27,7 +27,7 @@ $.extend(true, translations, {
     'i-i-s-flexberry-go-gatekeeper-sample-user-report': IISFlexberryGoGatekeeperSampleUserReportModel
   },
 
-  'application-name': 'Async open xml reports sample',
+  'application-name': 'Flexberry GoGatekeeper Sample',
 
   forms: {
     loading: {
@@ -66,7 +66,7 @@ $.extend(true, translations, {
       },
 
       footer: {
-        'application-name': 'Async open xml reports sample',
+        'application-name': 'Flexberry GoGatekeeper Sample',
         'application-version': {
           caption: 'Версия аддона {{version}}',
           title: 'Это версия аддона ember-flexberry, которая сейчас используется в этом тестовом приложении ' +
@@ -77,8 +77,8 @@ $.extend(true, translations, {
 
       sitemap: {
         'application-name': {
-          caption: 'Async open xml reports sample',
-          title: 'Async open xml reports sample'
+          caption: 'Flexberry GoGatekeeper Sample',
+          title: 'Flexberry GoGatekeeper Sample'
         },
         'application-version': {
           caption: 'Версия аддона {{version}}',
